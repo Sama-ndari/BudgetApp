@@ -1,0 +1,177 @@
+body ,html{
+    margin: 0;
+    font-family: 'Open Sans';
+    height: 100vh;
+}
+
+.first {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.959);
+    opacity: 0.8;
+    background-size: cover;
+    position: relative;
+    height: 40vh;
+    padding-bottom: 20px;
+}
+
+.back {
+    background-color: rgba(44, 43, 42, 0.322);
+    border-radius: 10px;
+    opacity: 0.8;
+    height: fit-content;
+    padding-right: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    color: black;
+}
+
+.bigTitle {
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: rgb(71, 62, 49);
+}
+
+.budgetValue {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.values {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 40%;
+    width: 30%;
+    color: black;
+    padding-left: 5px;
+    height: 8vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.incomes {
+    position: relative;
+    background-color: rgb(1, 171, 177);
+    margin-bottom: 10px;
+}
+
+.expenses {
+    position: relative;
+    background-color: rgb(196, 13, 13);
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    padding-left: 15%;
+    color: antiquewhite;
+}
+
+.center {
+    position: relative;
+    padding-top: 14px;
+}
+
+.expensesPercentage {
+    padding-left: 30px;
+}
+
+.addContainer {
+    background-color: rgb(242, 249, 252);
+    text-align: center;
+    padding: 10px;
+}
+
+.type {
+    border-radius: 5px;
+    border-color: rgb(212, 208, 202);
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.title {
+    border-radius: 10px;
+    border-color: rgb(202, 200, 197);
+    font-size: medium;
+    width: 25rem;
+    height: 3rem;
+    margin: 0 20px;
+}
+
+.value {
+    border-radius: 4px;
+    border-color: rgb(212, 207, 201);
+    width: 5rem;
+    height: 2rem;
+}
+
+.buttonToAdd {
+    border-radius: 50%;
+    border-color: transparent;
+    color: rgba(1, 171, 177, 0.808);
+    background-color: transparent;
+}
+
+.showContainer {
+    display: flex;
+    gap: 5rem;
+    width: 80%;
+    margin-left: 15%;
+    padding-top: 20px;
+}
+
+.incomeTitle {
+    font-size: x-large;
+    font-weight: 100;
+    color: rgba(1, 171, 177, 0.808);
+}
+
+.expenseTitle {
+    font-size: x-large;
+    font-weight: 100;
+    color: rgba(185, 1, 1, 0.753);
+}
+
+.depenses {
+    background-color: rgb(209, 203, 203);
+}
+
+.depense {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: azure;
+    padding: 10px 2px;
+    margin-top: 1px;
+}
+
+.incomeDepense,
+.blue {
+    color: rgba(1, 171, 177, 0.808);
+}
+
+.expenseDepense,
+.red {
+    color: rgba(185, 1, 1, 0.753);
+}
+
+.depensePercentage{
+    background-color: rgba(44, 43, 42, 0.322);
+    border-radius: 10px;
+    opacity: 0.8;
+    height: fit-content;
+    padding: 3px;
+}
+
+.line {
+    padding: 0px;
+    margin: 0px;
+}
+
+.buttonToDelete {
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: transparent;
+}
