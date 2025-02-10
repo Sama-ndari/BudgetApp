@@ -17,6 +17,7 @@ function getDate() {
     return today.toLocaleDateString("en-US",options);
 }
 
+
 //var to store all depenses income and expenses
 var allDepenses = [];
 
